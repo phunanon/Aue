@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.5s ease;
+}
+
+body {
+  padding: 1rem;
+}
+
+h1 img {
+  width: 2rem;
+}
+
+aue, interps {
+  display: block;
+  padding: 1rem;
+}
+
+interps {
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+verse, interp {
+  display: inline-block;
+  padding-right: .5rem;
+  line-height: 1.5rem;
+}
+
+interp {
+  display: block;
+  max-height: 10rem;
+}
