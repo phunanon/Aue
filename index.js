@@ -44,7 +44,7 @@ function DOM_display_Aue () {
 }
 
 async function fetchAue () {
-  let aue = await fetch("https://raw.githubusercontent.com/phunanon/Aue/main/aue.json");
+  let aue = await fetch("https://raw.githubusercontent.com/phunanon/Aue/master/aue.json");
   if (aue.ok) {
     db = await aue.json();
     DOM_display_Aue();
