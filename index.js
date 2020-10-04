@@ -9,7 +9,7 @@ function DOM_verseHover () {
   this.style.opacity = 1;
   es("interp").forEach((e, i) => {
     const included = db.interpretations[i][2].includes(cite);
-    e.style.maxHeight = included ? "10rem" : 0;
+    e.style.maxHeight = included ? "20rem" : 0;
     e.style.opacity = included ? 1 : 0;
   });
 }
@@ -22,7 +22,7 @@ function DOM_interpHover () {
 function DOM_mouseLeave () {
   es("verse").forEach(e => e.style.opacity = 1);
   es("interp").forEach(e => e.style.opacity = 1);
-  es("interp").forEach(e => e.style.maxHeight = "10rem");
+  es("interp").forEach(e => e.style.maxHeight = "20rem");
 }
 
 function htmlAueVerse ([cite, body], i) {
