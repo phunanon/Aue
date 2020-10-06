@@ -58,9 +58,17 @@ function DOM_display_Aue () {
   e("interps").innerHTML = db.interpretations.map(htmlInterp).join("");
 
   document.body.addEventListener('click', () => {inClick = false; DOM_reset()});
-  es("verse").forEach(l => l.addEventListener('mouseover', DOM_verseHover));
-  es("interp").forEach(l => l.addEventListener('mouseover', DOM_interpHover));
-  es("verse").concat(es("interp")).forEach(l => l.addEventListener('click', DOM_click));
-  es("verse").concat(es("interp")).forEach(l => l.addEventListener('mouseout', DOM_reset));
+  es("verse").forEach(l => {
+    l.addEventListener('mouseover', DOM_verseHover);
+    l.addEventListener('click', DOM_verseHover);
+  });
+  es("interp").forEach(l => {
+    l.addEventListener('mouseover', DOM_interpHover);
+    l.addEventListener('click', DOM_interpHover);
+  });
+  es("verse").concat(es("interp")).forEach(l => {
+    l.addEventListener('click', DOM_click);
+    l.addEventListener('mouseout', DOM_reset);
+  });
   DOM_reset();
 }
