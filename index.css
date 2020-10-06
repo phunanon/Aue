@@ -6,17 +6,14 @@
   transition: all 0.5s ease;
 }
 
-body {
-  padding: 1rem;
-}
+body { padding: 1rem; }
 
-h1 img {
-  width: 2rem;
-}
+h1 img { width: 2rem; }
+
+h1, h2 { margin: 1rem 0 .5rem 0; }
 
 aue, interps {
   display: block;
-  padding: 1rem;
 }
 
 interps {
@@ -28,6 +25,9 @@ verse, interp {
   display: inline-block;
   padding-right: .5rem;
   line-height: 1.5rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
 }
 
 interp {
