@@ -1,8 +1,6 @@
 const e = el => document.querySelector(el);
 const es = el => Array.from(document.querySelectorAll(el));
 
-let db = null;
-
 function DOM_verseHover () {
   const cite = db.aue[this.dataset.num][0];
   es("verse").forEach(e => e.style.opacity = 0.25);
@@ -41,17 +39,4 @@ function DOM_display_Aue () {
   es("verse").forEach(l => l.addEventListener('mouseover', DOM_verseHover));
   es("interp").forEach(l => l.addEventListener('mouseover', DOM_interpHover));
   es("verse").concat(es("interp")).forEach(l => l.addEventListener('mouseout', DOM_mouseLeave));
-}
-
-async function fetchAue () {
-  let aue = await fetch("aue.json");
-  if (aue.ok) {
-    db = await aue.json();
-    DOM_display_Aue();
-  } else
-    alert("HTTP-Error: " + response.status);
-}
-
-function DOM_onload () {
-  fetchAue();
 }

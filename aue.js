@@ -1,3 +1,4 @@
+const db =
 {
   "aue": [
     ["a", "Here, use intelligence & serious attitude;"],
