@@ -16,11 +16,6 @@ aue, interps {
   display: block;
 }
 
-interps {
-  height: 20rem;
-  overflow-y: scroll;
-}
-
 verse, interp {
   display: inline-block;
   padding-right: .5rem;
