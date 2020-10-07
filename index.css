@@ -6,7 +6,10 @@
   transition: all 0.5s ease;
 }
 
-body { padding: 1rem; }
+body {
+  padding: 1rem;
+  background-color: #f4f8ff;
+}
 
 h1 img { width: 2rem; }
 
