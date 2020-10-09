@@ -32,3 +32,7 @@ interp {
   display: block;
   max-height: 20rem;
 }
+interp i {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
