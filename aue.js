@@ -25,13 +25,14 @@ const db =
   ],
   "interpretations": [
     ["Group revision", "Revise Aue & life with others, & record & preach the proceedings.", "abcdelmnops"],
-    ["Personal revision", "Revise Aue regularly throughout life, & record & summarise one’s relationship to it.", "abcde"],
+    ["Personal revision", "Revise Aue regularly throughout life, & record & summarise your relationship with it.", "abcde"],
     ["Aue literacy", "Promote literacy, & guard the recorded meaning of Aue, also through translation. Aue should be made accessible to all sentient beings, through literacy or codified example.", "bcelmnops"],
     ["Aue celebration", "Celebrate with others the event of personal understanding of Aue, & faith in it. Record this understanding & the celebration itself.", "bdes"],
     ["Austerity", "Mitigate austerity of essential produce, & be humble during abundance. Do not hoard or fight.", "bijimnopqrs"],
     ["Primary education", "Seek, improve, & enact the most effective methods of teaching children in universal equity, balancing knowledge & investigation, reason & trust, humility & freedom, reality & fantasy, sanctity & impiety.", "celmnoptu"],
     ["Conversation", "Keep knowledge & communication thriving - all that alleviates from unconsciousness. Do not dominate conversation.", "cijntu"],
     ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue in your life, since your last reflection.", "dilp"],
+    ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dmnps"],
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution that may augment danger.", "ghijlmnoqrstu"],
     ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of suffering through donation of tissue & organs. Else, respect the corpse that was cultivated as the habitat of a fellow being.", "ghjlmnoptu"],
     ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will.", "gilopqrtu"],
@@ -50,8 +51,9 @@ const db =
     ["Shame", "Do not cast shame for nudity, adult & consenting sexuality, or other victimless recreation, only perhaps suggest alternatives.", "klpu"],
     ["Exercise", "In recreational or healthful exercise seek out use for this kinetic energy potential.", "klu"],
     ["Technological inertia", "Seek the propagation of improved socially valuable technology or methodology, as for some hardship we will reap benefits.", "kotu"],
-    ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions’ severity.", "lmnopqrstu"],
+    ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions' severity.", "lmnopqrstu"],
     ["Hygiene", "Keep yourself & your environment hygienic & your immunity strong, & mitigate disease & its transmission.", "lmnopstu"],
+    ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing.", "lmnop"],
     ["Truth", "Avoid lies & feigning & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "noqrtu"]
   ]
 }

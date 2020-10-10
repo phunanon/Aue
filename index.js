@@ -46,11 +46,11 @@ function DOM_reset () {
 }
 
 function htmlAueVerse ([cite, body], i) {
-  return `<verse data-num="${i}"><sub>${cite} </sub>${body}</verse>`;
+  return `<verse data-num="${i}"><cite>${cite} </cite>${body}</verse>`;
 }
 
 function htmlInterp ([title, body, cites], i) {
-  return `<interp data-num="${i}"><i>${title}</i>. ${body} <sub>${cites}</sub></interp>`;
+  return `<interp data-num="${i}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`;
 }
 
 function DOM_display_Aue () {

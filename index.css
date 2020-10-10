@@ -7,7 +7,7 @@
 }
 
 body {
-  padding: 1rem;
+  padding: 4vw;
   background-color: #f4f8ff;
 }
 
@@ -35,4 +35,8 @@ interp {
 interp i {
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+cite {
+  font-size: 80%;
 }
