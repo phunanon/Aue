@@ -35,7 +35,7 @@ const db =
     ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dmnps"],
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution & exploit that may augment danger.", "ghijlmnoqrstu"],
     ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of suffering through donation of tissue & organs. Else, respect the corpse that was cultivated as the habitat of a fellow being.", "ghjlmnoptu"],
-    ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will.", "gilopqrtu"],
+    ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will. Suspended with lack of reciprocation.", "gilopqrtu"],
     ["Assisted suicide", "If a person is in great incurable pain, that they wish with sobriety & sanity their expedited death, permit it in the least painful method sought.", "gklmoptu"],
     ["Materialism", "Swap possessions with others with joy, & seek out experience over material goods, for they are indefinitely tangible.", "hklop"],
     ["Promises", "Only declare promises you know you can keep, & if expectations must be changed seek consent from the other. Promises to the dead are meaningless.", "hno"],
