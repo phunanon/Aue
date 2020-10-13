@@ -36,6 +36,7 @@ const db =
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution & exploit that may augment danger.", "ghijlmnoqrstu"],
     ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of suffering through donation of tissue & organs. Else, respect the corpse that was cultivated as the habitat of a fellow being.", "ghjlmnoptu"],
     ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will. Suspended with lack of reciprocation.", "gilopqrtu"],
+    ["Health", "Keep yourself healthy & your environment hygienic & your immunity strong, & mitigate disease & its transmission.", "gklmnoprtu"],
     ["Assisted suicide", "If a person is in great incurable pain, that they wish with sobriety & sanity their expedited death, permit it in the least painful method sought.", "gklmoptu"],
     ["Materialism", "Swap possessions with others with joy, & seek out experience over material goods, for they are indefinitely tangible.", "hklop"],
     ["Promises", "Only declare promises you know you can keep, & if expectations must be changed seek consent from the other. Promises to the dead are meaningless.", "hno"],
@@ -52,7 +53,6 @@ const db =
     ["Exercise", "In recreational or healthful exercise seek out use for this kinetic energy potential.", "klu"],
     ["Technological inertia", "Seek the propagation of improved socially valuable technology or methodology, as for some hardship we will reap benefits.", "kotu"],
     ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions' severity.", "lmnopqrstu"],
-    ["Hygiene", "Keep yourself & your environment hygienic & your immunity strong, & mitigate disease & its transmission.", "lmnopstu"],
     ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing.", "lmnop"],
     ["Truth", "Avoid lies & feigning & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "noqrtu"]
   ]
