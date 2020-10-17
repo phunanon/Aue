@@ -31,7 +31,7 @@ const db =
     ["Austerity", "Mitigate austerity of essential produce, & be humble during abundance. Do not hoard or fight.", "bijimnopqrs"],
     ["Primary education", "Seek, improve, & enact the most effective methods of teaching children in universal equity, balancing knowledge & investigation, reason & trust, humility & freedom, reality & fantasy, sanctity & impiety.", "celmnoptu"],
     ["Conversation", "Keep knowledge & communication thriving - it alleviates from unconsciousness. Do not dominate conversation.", "cijntu"],
-    ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue in your life, since your last reflection.", "dilp"],
+    ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue & other beings' impact in your life.", "deijlmnp"],
     ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dmnps"],
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution & exploit that may augment danger.", "ghijlmnoqrstu"],
     ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of suffering through donation of tissue & organs. Else, respect the corpse that was cultivated as the habitat of a fellow being.", "ghjlmnoptu"],
