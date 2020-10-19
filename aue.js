@@ -7,7 +7,7 @@ const db =
     ["d", "It is shared to you, rejoice!"],
     ["e", "Record & preach the joy.<br>"],
     ["f", "Our universe is over 13.7 billion years old."],
-    ["g", "Only now nature & our bodily constitution is formed & time too short to reform it."],
+    ["g", "Nature & our bodily constitution is formed now only & time too short to reform it."],
     ["h", "We & the universe will scatter in death."],
     ["i", "Primitive evolution gave joy & woe, sentience an acute form."],
     ["j", "We share the universe with life which evolved alongside our ancestors."],
