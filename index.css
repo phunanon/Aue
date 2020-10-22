@@ -30,7 +30,8 @@ verse, interp {
 
 interp {
   display: block;
-  max-height: 20rem;
+  max-height: 12rem;
+  overflow-y: clip;
 }
 interp i {
   text-decoration: underline;

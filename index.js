@@ -13,8 +13,7 @@ function DOM_verseHover () {
   let numInclusions = 0;
   ess("interp").forEach((s, i) => {
     const included = db.interpretations[i][2].includes(cite);
-    s.maxHeight = included ? "20rem" : 0;
-    s.opacity = included ? 1 : 0;
+    s.maxHeight = included ? "12rem" : 0;
     numInclusions += included;
   });
   e("h2").innerHTML = `Interpretations (${numInclusions})`;
@@ -42,7 +41,7 @@ function DOM_reset () {
     s.textDecorationColor = "transparent"
   });
   ess("interp").forEach(s => s.opacity = 1);
-  ess("interp").forEach(s => s.maxHeight = "20rem");
+  ess("interp").forEach(s => s.maxHeight = "12rem");
 }
 
 function htmlAueVerse ([cite, body], i) {
