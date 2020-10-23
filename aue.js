@@ -33,7 +33,7 @@ const db =
     ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue & other beings' impact in your life.", "dehiklmo"],
     ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dlmor"],
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution & exploit that may augment danger.", "fghiklmnpqrst"],
-    ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of woe through donation of tissue & organs. Else, respect the corpse that was cultivated as the habitat of a fellow being.", "fgiklmnost"],
+    ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of woe through donation of tissue & organs.", "fgiklmnost"],
     ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will. Suspended with lack of reciprocation.", "fhknopqst"],
     ["Health", "Keep yourself healthy & your environment hygienic & your immunity strong, & mitigate disease & its transmission.", "fjklmnoqst"],
     ["Assisted suicide", "If a person is in great incurable pain, that they wish with sobriety & sanity their expedited death, permit it in the least painful method sought.", "fjklnost"],
@@ -52,6 +52,6 @@ const db =
     ["Technological inertia", "Seek the propagation of improved socially valuable technology or methodology, as for some hardship we will benefit.", "jnst"],
     ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions' severity.", "klmnopqrst"],
     ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing.", "klmno"],
-    ["Truth", "Avoid lies & feigning & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "mnpqst"]
+    ["Truth", "Avoid lies, feigning, hypocrisy, & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "mnpqst"]
   ]
 }
