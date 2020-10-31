@@ -45,7 +45,7 @@ const db =
     ["Abortion", "Pregnancy is of bodily constitution, & permit termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hikoqst"],
     ["Responsible parenthood", "Plan your parenthood carefully. Use contraceptive & fertility methods as desired. Consider adoption after one biological child.", "ijkorst"],
     ["Cooperation", "Encourage cooperation over competition in all disciplines except recreation.", "ijlmst"],
-    ["Borrow reality.", "Know we borrow the present from future beings and our future selves. Keep and ensure a healthy reality.", "iklmnost"],
+    ["Borrow reality", "Know we borrow the present from future beings and our future selves. Keep and ensure a healthy reality.", "iklmnost"],
     ["Research participation", "Be aware of safe medical or scientific research, & participate & benefit with joy. Also donating bodily material, such as matched blood or tissue or hair.", "iklmnost"],
     ["Slavery", "Seek out & eliminate enslavement or encouragement into so, & ensure executives similarly laboured themselves.", "jklmnopqr"],
     ["Shame", "Do not cast shame for nudity, adult & consenting sexuality, or other victimless recreation, only perhaps suggest alternatives.", "jkot"],
