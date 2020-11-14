@@ -30,7 +30,7 @@ function DOM_click (e) {
   if (!(inClick = !inClick))
     DOM_reset();
   else
-    e.target.style.textDecorationColor = "#000";
+    e.currentTarget.style.textDecorationColor = "#000";
   e.stopPropagation();
 }
 function DOM_reset () {
