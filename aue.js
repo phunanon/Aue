@@ -40,7 +40,7 @@ const db =
     ["Materialism", "Swap possessions with others with joy, & seek out experience over material goods, for they are indefinitely tangible.", "gjkno"],
     ["Promises", "Only declare promises you know you can keep, & if expectations must be changed seek consent from the other. Promises to the dead are meaningless.", "gmn"],
     ["Phobias", "Seek out effective help in correcting phobias, to reliablity & capablity for both yourself & others. But do understand real situational dangers.", "hjkst"],
-    ["Charity", "Be charitable to others in need, & seek for the systems of plight to be reformed or destroyed.", "hihlmnopqr"],
+    ["Charity", "Be charitable to others in need, & seek for the systems of plight to be reformed or destroyed.", "hilmnopqr"],
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnorst"],
     ["Abortion", "Pregnancy is of bodily constitution, & permit termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hikoqst"],
     ["Responsible parenthood", "Plan your parenthood carefully. Use contraceptive & fertility methods as desired. Consider adoption after one biological child.", "ijkorst"],
