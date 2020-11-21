@@ -14,6 +14,7 @@ function DOM_verseHover () {
   ess("interp").forEach((s, i) => {
     const included = db.interpretations[i][2].includes(cite);
     s.maxHeight = included ? "12rem" : 0;
+    s.userSelect = included ? "" : "none";
     numInclusions += included;
   });
   e("h2").innerHTML = `Interpretations (${numInclusions})`;
@@ -38,7 +39,8 @@ function DOM_reset () {
   e("h2").innerHTML = `Interpretations (${db.interpretations.length})`;
   ess("verse").concat(ess("interp")).forEach(s => {
     s.opacity = 1;
-    s.textDecorationColor = "transparent"
+    s.textDecorationColor = "transparent";
+    s.userSelect = "";
   });
   ess("interp").forEach(s => s.opacity = 1);
   ess("interp").forEach(s => s.maxHeight = "12rem");
@@ -56,7 +58,12 @@ function DOM_display_Aue () {
   e("aue").innerHTML = db.aue.map(htmlAueVerse).join("");
   e("interps").innerHTML = db.interpretations.map(htmlInterp).join("");
 
-  document.body.addEventListener('click', () => {inClick = false; DOM_reset()});
+  document.body.addEventListener('click', () => {
+    if (window.getSelection().type == "Range")
+      return;
+    inClick = false;
+    DOM_reset();
+  });
   es("verse").forEach(l => {
     l.addEventListener('mouseover', DOM_verseHover);
     l.addEventListener('click', DOM_verseHover);
