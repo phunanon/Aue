@@ -41,6 +41,14 @@ interp i {
   text-decoration-style: dotted;
 }
 
+interp.hide {
+  max-height: 0;
+  user-select: none;
+}
+interp.dim, verse.dim {
+  opacity: .25;
+}
+
 cite {
   font-size: 80%;
 }
