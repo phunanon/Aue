@@ -6,7 +6,7 @@ const db =
     ["c", "This is knowledge, to be shared, preserved, inspiring joy."],
     ["d", "It is shared to you, rejoice!"],
     ["e", "Record & preach the joy."],
-    ["f", "Nature & bodily constitution is formed now only & time too short to reform it;"],
+    ["f", "Nature & bodily constitution is formed now only;"],
     ["g", "after death is scattering."],
     ["h", "Primitive evolution gave joy & woe, acute in sentience."],
     ["i", "Life, historically evolved, shares the universe."],
