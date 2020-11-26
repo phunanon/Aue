@@ -39,7 +39,7 @@ const db =
     ["Assisted suicide", "If a person is in great incurable pain, that they wish with sobriety & sanity their expedited death, permit it in the least painful method sought.", "fjklnost"],
     ["Materialism", "Swap possessions with others with joy, & seek out experience over material goods, for they are indefinitely tangible.", "gjkno"],
     ["Promises", "Only declare promises you know you can keep, & if expectations must be changed seek consent from the other. Promises to the dead are meaningless.", "gmn"],
-    ["Phobias", "Seek out effective help in correcting phobias, to reliablity & capablity for both yourself & others. But do understand real situational dangers.", "hjkst"],
+    ["Phobias", "Seek out effective help in correcting phobias, for reliability & capability for both yourself & others. But do understand real situational dangers.", "hjkst"],
     ["Charity", "Be charitable to others in need, & seek for the systems of plight to be reformed or destroyed.", "hilmnopqr"],
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnorst"],
     ["Abortion", "Pregnancy is of bodily constitution, & permit termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hikoqst"],
