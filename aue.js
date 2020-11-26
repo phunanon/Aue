@@ -27,7 +27,7 @@ const db =
     ["Personal revision", "Revise Aue regularly throughout life, & record & summarise your relationship with it.", "abcde"],
     ["Aue literacy", "Promote literacy, & guard the meaning of Aue, also through translation.", "bceklmnor"],
     ["Aue celebration", "Celebrate with others the event of personal understanding of Aue, & faith in it. Record this understanding & the celebration itself.", "bder"],
-    ["Austerity", "Mitigate austerity of essential produce, & be humble during abundance. Do not hoard or fight.", "bhihlmnopqr"],
+    ["Austerity", "Mitigate austerity of essential produce, & be humble during abundance. Do not hoard or fight.", "bhilmnopqr"],
     ["Primary education", "Enact & improve teaching children in universal equity, balancing knowledge & investigation, reason & trust, humility & freedom, reality & fantasy, sanctity & impiety.", "ceklmnost"],
     ["Conversation", "Keep knowledge & communication thriving - it alleviates from unconsciousness. Do not dominate conversation.", "chimst"],
     ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue & other beings' impact in your life.", "dehiklmo"],
