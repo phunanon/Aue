@@ -42,7 +42,7 @@ const db =
     ["Phobias", "Seek out effective help in correcting phobias, for reliability & capability for both yourself & others. But do understand real situational dangers.", "hjkst"],
     ["Charity", "Be charitable to others in need, & seek for the systems of plight to be reformed or destroyed.", "hilmnopqr"],
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnorst"],
-    ["Abortion", "Pregnancy is of bodily constitution, & permit termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hikoqst"],
+    ["Abortion", "Pregnancy is of bodily constitution, permitting termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hikoqst"],
     ["Responsible parenthood", "Plan your parenthood carefully. Use contraceptive & fertility methods as desired. Consider adoption after one biological child.", "ijkorst"],
     ["Cooperation", "Encourage cooperation over competition in all disciplines except recreation.", "ijlmst"],
     ["Borrow reality", "Know we borrow the present from future beings and our future selves. Keep and ensure a healthy reality.", "iklmnost"],
