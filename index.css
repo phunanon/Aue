@@ -11,6 +11,10 @@ body {
   background-color: #f4f8ff;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+}
 h1 img { width: 2rem; }
 h1, h2 { margin: 1rem 0 .5rem 0; }
 a {
@@ -51,4 +55,11 @@ interp.dim, verse.dim {
 
 cite {
   font-size: 80%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #eee;
+  }
 }
