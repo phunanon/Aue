@@ -8,7 +8,7 @@ const db =
     ["e", "Record & preach the joy."],
     ["f", "Nature & bodily constitution is formed now only;"],
     ["g", "after death is scattering."],
-    ["h", "Primitive evolution gave joy & woe, acute in sentience."],
+    ["h", "Primitive evolution gave joy & woe in sentience."],
     ["i", "Life, evolved together, shares the universe."],
     ["j", "Time, volatile, should be precious & used well."],
     ["k", "Know of woe, & seek joy with joy & praise."],
