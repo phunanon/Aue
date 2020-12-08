@@ -2,7 +2,7 @@ const db =
 {
   "aue": [
     ["a", "Here, use intelligence & sensibility;"],
-    ["b", "have faith in Aue & your ability to understand."],
+    ["b", "have faith in Aue & your abilities."],
     ["c", "This is knowledge, to be shared, preserved, for joy."],
     ["d", "It is shared to you, rejoice!"],
     ["e", "Record & preach the joy."],
@@ -53,7 +53,7 @@ const db =
     ["Exercise", "In recreational or healthful exercise seek use for this kinetic energy potential.", "jkt"],
     ["Technological inertia", "Seek the propagation of improved socially valuable technology or methodology, as for some hardship we will benefit.", "jnst"],
     ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions' severity.", "klmnopqrst"],
-    ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing.", "klmno"],
+    ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing. Accept others seeking reconciliation with you also.", "klmno"],
     ["Truth", "Avoid lies, feigning, hypocrisy, & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "mnpqst"]
   ]
 }
