@@ -17,7 +17,7 @@ const db =
     ["n", "Have empathy, love others & yourself, seek emulation."],
     ["o", "Some beings incite woe;"],
     ["p", "protect yourself & joy, & seek less belligerence."],
-    ["q", "Some beings ignorantly feed woe, so demonstrate Aue."],
+    ["q", "Some beings ignorantly feed woe, so exhibit Aue."],
     ["r", "Keep critical faith in science & knowledge;"],
     ["s", "wielded for joy, avoids known woe, grow it."]
   ],
