@@ -17,6 +17,7 @@ h1 {
 }
 h1 img { width: 2rem; }
 h1, h2 { margin: 1rem 0 .5rem 0; }
+.underlined { text-decoration: underline; }
 a {
   text-decoration: none;
   color: #c0c;
@@ -61,5 +62,8 @@ cite {
   body {
     background-color: #000;
     color: #eee;
+  }
+  .underlined {
+    text-decoration-color: #eee;
   }
 }

@@ -21,15 +21,14 @@ function DOM_click (e) {
   if (!(inClick = !inClick))
     DOM_reset();
   else
-    e.currentTarget.style.textDecorationColor = "#000";
+    e.currentTarget.classList.add("underlined");
   e.stopPropagation();
 }
 function DOM_reset () {
   if (inClick) return;
   e("h2").innerHTML = `Interpretations (${db.interpretations.length})`;
   es("verse").concat(es("interp")).forEach(el => {
-    el.classList.remove('dim', 'hide');
-    el.style.textDecorationColor = "transparent";
+    el.classList.remove("dim", "hide", "underlined");
   });
 }
 
