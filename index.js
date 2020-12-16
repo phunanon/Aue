@@ -34,9 +34,9 @@ function DOM_reset () {
 
 function DOM_display_Aue () {
   e("aue").innerHTML = db.aue.map(([cite, body]) =>
-    `<verse data-cite="${cite}"><cite>${cite} </cite>${body}</verse>`).join("");
+    `<verse data-cite="${cite}"><cite>${cite} </cite>${body}</verse>`).join(" ");
   e("interps").innerHTML = db.interpretations.map(([title, body, cites]) =>
-    `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`).join("");
+    `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`).join(" ");
 
   document.body.addEventListener('click', () => {
     if (window.getSelection().type == "Range")
