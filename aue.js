@@ -13,13 +13,13 @@ const db =
     ["j", "Time, volatile, should be precious & used well."],
     ["k", "Know of woe, & seek joy with joy & praise."],
     ["l", "Trust & rely on nature & society."],
-    ["m", "Avoid harm to it, & bolster good."],
-    ["n", "Have empathy, love others & yourself, seek emulation."],
+    ["m", "Oppose harm to it, & bolster good."],
+    ["n", "Have empathy, love all & yourself, seek emulation."],
     ["o", "Some beings incite woe;"],
     ["p", "protect yourself & joy, & seek less belligerence."],
     ["q", "Some beings ignorantly feed woe, so exhibit Aue."],
     ["r", "Keep critical faith in science & knowledge;"],
-    ["s", "wielded for joy, avoids known woe, grow it."]
+    ["s", "wielded for joy, impedes known woe, grow it."]
   ],
   "interpretations": [
     ["Group revision", "Revise Aue & life with others, recite & chant, & record & preach the proceedings.", "abcdeklmnq"],
@@ -33,11 +33,13 @@ const db =
     ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dlnq"],
     ["Ecology", "The natural environment is our greatest fortune - protect it from pollution & exploit that may augment danger.", "fghiklmopqrs"],
     ["Corpse donation", "Once sentience in a being is dead the corpse may relieve others of woe through donation of tissue & organs.", "fgiklmnrs"],
+    ["Divine vanity", "Free will is a product of evolution - it is vain to believe otherwise - and therefore dieties are grossly improbable.", "fhir"],
     ["Bodily violation", "Do not violate another being's bodily constitution unless it could be their will. Suspended with lack of reciprocation.", "fhkmnoprs"],
     ["Health", "Keep yourself healthy & your environment hygienic & your immunity strong, & mitigate disease & its transmission.", "fjklmnprs"],
     ["Assisted suicide", "If a person is in great incurable pain, that they wish with sobriety & sanity their expedited death, permit it in the least painful method sought.", "fjkmnrs"],
-    ["Materialism", "Swap possessions with others with joy, & seek experience over material goods, for they are indefinitely tangible.", "gjkmn"],
+    ["Materialism", "Swap possessions with others with joy, & seek experience over material goods, for experience is indefinitely tangible.", "gjkmn"],
     ["Promises", "Only declare promises you know you can keep, & if expectations must be changed seek consent from the other. Promises to the dead are meaningless.", "glm"],
+    ["Consciousness", "Our minds are of our evolution, and our consciousness is found only within our bodies.", "hir"],
     ["Phobias", "Seek effective help in correcting phobias, for reliability & capability for both yourself & others. But do understand real situational dangers.", "hjkrs"],
     ["Charity", "Be charitable to others in need, & seek for the systems of plight to be reformed or destroyed.", "hilmnopq"],
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnqrs"],
@@ -53,6 +55,6 @@ const db =
     ["Technological inertia", "Seek the propagation of improved socially valuable technology or methodology, as for some hardship we will benefit.", "jmrs"],
     ["Judgement", "Judge others only by their actions proven true, weighing their material conditions with their actions' severity.", "klmnopqrs"],
     ["Reconciliation", "Sincerely & appropriately correct & resolve & mitigate personal wrongdoing. Accept others seeking reconciliation with you also.", "klmn"],
-    ["Truth", "Avoid lies, feigning, hypocrisy, & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "lmoprs"]
+    ["Truth", "Avoid lies, feigning, hypocrisy, & misinformation, including to yourself, & champion truth where lies are given. Lies are socially & scientifically unhealthy.", "lmoprs"],
   ]
 }
