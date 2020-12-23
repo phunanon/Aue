@@ -27,7 +27,7 @@ const db =
     ["Aue literacy", "Promote literacy, & guard the meaning of Aue, also through translation.", "bceklmnq"],
     ["Aue celebration", "Celebrate with others the event of personal understanding of Aue, & faith in it. Record this understanding & the celebration itself.", "bdeq"],
     ["Austerity", "Mitigate austerity of essential produce, & be humble during abundance. Do not hoard or fight.", "bhilmnopq"],
-    ["Primary education", "Enact & improve teaching children in universal equity, balancing knowledge & investigation, reason & trust, humility & freedom, reality & fantasy, sanctity & impiety.", "ceklmnrs"],
+    ["Education", "Enact & improve teaching in universal equity, balancing knowledge & investigation, reason & trust, humility & freedom, reality & fantasy, sanctity & impiety.", "ceklmnrs"],
     ["Conversation", "Keep knowledge & communication thriving - it alleviates from unconsciousness. Do not dominate conversation.", "chilrs"],
     ["Reflection", "Regularly reflect upon your interactions with reality, & the diverse far-reaching impact in all you do, & Aue & other beings' impact in your life.", "dehikln"],
     ["Gratitude", "Thank all those who bring you joy, celebrate this, & appreciate thanks to you. Be mindful of joy's diversity.", "dlnq"],

@@ -33,10 +33,12 @@ function DOM_reset () {
 }
 
 function DOM_display_Aue () {
-  e("aue").innerHTML = db.aue.map(([cite, body]) =>
-    `<verse data-cite="${cite}"><cite>${cite} </cite>${body}</verse>`).join(" ");
-  e("interps").innerHTML = db.interpretations.map(([title, body, cites]) =>
-    `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`).join(" ");
+  e("aue").innerHTML = db.aue.map(
+    ([cite, body]) => `<verse data-cite="${cite}"><cite>${cite}</cite> ${body}</verse>`)
+    .join(" ");
+  e("interps").innerHTML = db.interpretations.map(
+    ([title, body, cites]) => `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`)
+    .join(" ");
 
   document.body.addEventListener('click', () => {
     if (window.getSelection().type == "Range")
@@ -57,4 +59,18 @@ function DOM_display_Aue () {
     l.addEventListener('mouseout', DOM_reset);
   });
   DOM_reset();
+}
+
+const frequencies = arr => {
+  const totals = new Map();
+  arr.forEach(x => totals.has(x) ? totals.set(x, totals.get(x) + 1) : totals.set(x, 1))
+  return totals;
+};
+
+function heatmap () {
+  const freqs = frequencies(db.interpretations.map(i => i[2]).join("").split(""));
+  const maxN = Math.max(...freqs.values());
+  es("verse").forEach(v => {
+    v.style.opacity = freqs.get(v.dataset.cite) / maxN;
+  })
 }
