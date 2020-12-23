@@ -57,6 +57,8 @@ interp.dim, verse.dim {
 
 cite {
   font-size: 80%;
+  display: inline-block;
+  width: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
