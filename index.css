@@ -50,6 +50,7 @@ interp i {
 interp.hide {
   max-height: 0;
   user-select: none;
+  overflow: hidden;
 }
 interp.dim, verse.dim {
   opacity: .25;
