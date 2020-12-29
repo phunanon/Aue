@@ -14,7 +14,7 @@ const db =
     ["k", "Know of woe, & seek joy with joy & praise."],
     ["l", "Trust & rely on nature & society."],
     ["m", "Oppose harm to it, & bolster good."],
-    ["n", "Have empathy, love all & yourself, seek emulation."],
+    ["n", "Have empathy, & seek others' emulation."],
     ["o", "Some beings incite woe;"],
     ["p", "protect yourself & joy, & seek less belligerence."],
     ["q", "Some beings ignorantly feed woe, so exhibit Aue."],
