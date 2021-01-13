@@ -39,6 +39,10 @@ function DOM_display_Aue () {
   e("interps").innerHTML = db.interpretations.map(
     ([title, body, cites]) => `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`)
     .join(" ");
+  e("descriptions").innerHTML = db.verseDescriptions.map(
+    ([verse, body]) => `<description><cite>${verse}</cite> <b>${db.aue.find(([v]) => v == verse)[1]}</b>
+                        <p>${body.replace("\n", "</p></p>")}</p></description>`)
+    .join("");
 
   document.body.addEventListener('click', () => {
     if (window.getSelection().type == "Range")
