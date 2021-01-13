@@ -7,9 +7,9 @@ function DOM_verseHover () {
   if (inClick) return;
   DOM_reset();
   es("verse").forEach(el => el != this && el.classList.add("dim"));
-  const toHide = es("interp").filter((el, i) => !db.interpretations[i][2].includes(this.dataset.cite));
-  toHide.forEach(el => el.classList.add("hide"));
-  e("h2").innerHTML = `Interpretations (${db.interpretations.length - toHide.length})`;
+  const toDim = es("interp").filter((el, i) => !db.interpretations[i][2].includes(this.dataset.cite));
+  toDim.forEach(el => el.classList.add("dim"));
+  e("h2").innerHTML = `Interpretations (${db.interpretations.length - toDim.length})`;
 }
 function DOM_interpHover () {
   if (inClick) return;
@@ -28,7 +28,7 @@ function DOM_reset () {
   if (inClick) return;
   e("h2").innerHTML = `Interpretations (${db.interpretations.length})`;
   es("verse").concat(es("interp")).forEach(el => {
-    el.classList.remove("dim", "hide", "underlined");
+    el.classList.remove("dim", "underlined");
   });
 }
 
