@@ -20,15 +20,17 @@ function DOM_interpHover () {
 function DOM_click (e) {
   if (!(inClick = !inClick))
     DOM_reset();
-  else
+  else {
     e.currentTarget.classList.add("underlined");
+    es("verse.dim, interp.dim").forEach(el => el.classList.add("unselectable"));
+  }
   e.stopPropagation();
 }
 function DOM_reset () {
   if (inClick) return;
   e("h2").innerHTML = `Interpretations (${db.interpretations.length})`;
-  es("verse").concat(es("interp")).forEach(el => {
-    el.classList.remove("dim", "underlined");
+  es("verse, interp").forEach(el => {
+    el.classList.remove("dim", "underlined", "unselectable");
   });
 }
 
@@ -58,7 +60,7 @@ function DOM_display_Aue () {
     l.addEventListener('mouseover', DOM_interpHover);
     l.addEventListener('click', DOM_interpHover);
   });
-  es("verse").concat(es("interp")).forEach(l => {
+  es("verse, interp").forEach(l => {
     l.addEventListener('click', DOM_click);
     l.addEventListener('mouseout', DOM_reset);
   });
