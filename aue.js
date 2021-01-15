@@ -14,7 +14,7 @@ const db = {
     ["l", "Trust & rely on nature & society."],
     ["m", "Oppose harm to it, & bolster good."],
     ["n", "Have empathy, & seek others' emulation."],
-    ["o", "Some beings incite woe;"],
+    ["o", "Some woe is incited or inflicted;"],
     ["p", "protect yourself & joy, & seek less belligerence."],
     ["q", "Some beings ignorantly feed woe, so exhibit Aue."],
     ["r", "Keep critical faith in science & knowledge;"],
@@ -105,5 +105,7 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     But how much should one change? Where is the line drawn? This is a question that can regress into a return to primitive life or even to excuse suicide. But this insults our capacity for doing good, and may make one feel apathetic. We all have the ability to seek out, prioritise, and create real lasting impact in this world. It is with faith that adherents of Aue should do this, and never stop. <i>b</i> <b>Have faith in Aue & your abilities.</b>`],
     ["n", `Empathy is a fantastic evolved ability which enables understanding, and gives sensation of situations from other beings' perspectives. It gives both joy & woe to its practitioners, of which Aue encourages you feel and understand.
     <b>Have empathy</b> is thankfully not an empty statement - its strength per individual is affected by both nature and nurture. Learning empathy, and all its forms, is what Aue encourages. Others' emulation of empathy is to encourage it in all beings. It is not a force of good on its own (compassion), as some beings think less of themselves and so likely others. Aue is to tactically instil joy in all so we benefit from the synergy of societal joy.`],
+    ["o", `Unfortunately, it's virtually impossible for all animals (us included) to behave in such a way that woe is reduced only to natural misfortune. Whether through nature or nurture, some of us have taken a vocation of causing harm to others, whether that be permanently unpleasant attitude or serial murder. This verse serves as a reminder, that woe is not just inherent to our mortal condition but can be caused by others. Thankfully there is a human capacity to bring only joy to others to some degree.
+    This verse may address a victim or a culprit. For a victim, there is reminder that <i>some</i> woe is malicious, calculated, but therefore subject to change. For a culprit, there is no inherent virtue or sin, no eternal damnation, karma or curses, and therefore opportunity to change.`]
   ]
 }
