@@ -45,6 +45,9 @@ function DOM_display_Aue () {
     ([verse, body]) => `<description><cite>${verse}</cite> <b>${db.aue.find(([v]) => v == verse)[1]}</b>
                         <p>${body.replace("\n", "</p></p>")}</p></description>`)
     .join("");
+  e("materials").innerHTML = db.materials.map(
+    ([title, url, comment]) => `<material><a href="${url}"><i>${title}</i></a>${comment}</material>`)
+    .join("");
 
   document.body.addEventListener('click', () => {
     if (window.getSelection().type == "Range")
