@@ -70,13 +70,6 @@ material {
   padding-top: 1rem;
 }
 
-blockquote::before {
-  content: "“";
-}
-blockquote::after {
-  content: "”";
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000;

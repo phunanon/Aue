@@ -114,6 +114,9 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     It has been very apparent in lay and opposing peoples that distrust of institutions and authority lead to distrust in otherwise sound method and reproducibility.
     Though Antiscience is a pestilence, how the most critically acclaimed, even benign institutions are verified and trusted should be understood, countering blind trust. This will only be good for our society as a whole.
     With this ever-critical faith, we can be more sure of the conclusions of specialists and experts, institutions, and foundational knowledge, for joy. Scientific method and knowledge are inexorable for achieving effective adherence to Aue.`],
+    ["s", `This final verse of Aue follows after asking for critical trust in science and knowledge. Aue up until now has asked for one to be increasingly well aware of the joy and woe in this world, to side for society's joy, and propagate these priorities. It has also made various assertions, tying into this, about our origins, drives, and endings, which are rooted in materialist understanding. Aue itself certainly has intention of using materialist conclusions as solutions.
+    This verse isn't stating that science automatically wields itself for joy, or intrinsically impedes woe, rather it is an invitation to this cause; we must grow it. To quote Albert Einstein:
+    “Science … cannot create ends and, even less, instill them in human beings; science, at most, can supply the means by which to attain certain ends. But the ends themselves are conceived by personalities with lofty ethical ideals and—if these ends are not stillborn, but vital and vigorous—are adopted and carried forward by those many human beings who, half unconsciously, determine the slow evolution of society.”`]
   ],
   "materials": [
     [
@@ -135,7 +138,7 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     ], [
       "Daniel Amen TED Talk",
       "https://www.youtube.com/watch?v=esPRsT-lmw8",
-      ". Using science to identify and alleviate anti-social behaviour and other mental deviations, also adjusting moral responsibility of the afflicted. Rightfully, it is a controversial subject, but if we have the power to heal&mdash;and only healing, restoration&mdash;then we should explore it. Caution should be exercised to ensure it is a purely medicinal, restorative, ethical science. <blockquote>Behaviour is not the problem, behaviour is an expression of the problem.</blockquote>"
+      ". Using science to identify and alleviate anti-social behaviour and other mental deviations, also adjusting moral responsibility of the afflicted. Rightfully, it is a controversial subject, but if we have the power to heal&mdash;and only healing, restoration&mdash;then we should explore it. Caution should be exercised to ensure it is a purely medicinal, restorative, ethical science. “Behaviour is not the problem, behaviour is an expression of the problem.”"
     ]
   ],
 }
