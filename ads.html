@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <title>Aue advertisements</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&display=swap" rel="stylesheet"> 
+        <link rel="icon" type="image/svg+xml" href="Aue.svg"/>
+        <link rel="stylesheet" href="index.css">
+        <style>
+body {
+    background-color: #f4f8ff;
+    color: #000;
+}
+a {
+    color: #00f;
+}
+
+ads {
+    font-size: 2rem;
+}
+ad {
+    display: inline-block;
+    position: relative;
+    padding: 1em;
+    margin: 1em;
+    width: 26rem;
+    height: 26rem;
+    background-image: url(Aue.svg);
+    background-position: calc(100% - 1em) calc(100% - 1em);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+}
+ad:hover {
+    border: .1em solid #000;
+}
+ad p {
+    padding: .5em .1em;
+}
+ad a {
+    text-align: left;
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding-right: 1.7em;
+    color: #000;
+    position: absolute;
+    bottom: 1em;
+}
+ad img.large {
+    display: block;
+    max-width: 100%;
+    margin: .5em auto;
+    max-height: 7em;
+}
+ad img.small {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    padding: .2em .6em;
+}
+.highlight {
+    background-color: #000;
+    color: #fff;
+}
+        </style>
+    </head>
+    <body onload="DOM_display_Aue()">
+        <h1><img src="Aue.svg">Aue</h1>
+        <h2>Advertisements</h2>
+        <ads>
+            <ad>
+                the concept of <u>sin</u> is
+                <img class="large"
+                     src="http://purefreedom.org/wp-content/uploads/2015/06/Snake-Apple.png">
+                dictated, outmoded, invasive, unscientific
+            </ad>
+            <ad>
+                the concept of <u>karma</u> is
+                <img class="large"
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Endlessknot.svg/1200px-Endlessknot.svg.png">
+                dubious, nonchalant, unscientific
+            </ad>
+            <ad>
+                <table>
+                    <tr><td>The Bible</td><td>+750k</td></tr>
+                    <tr><td>The Vedas</td><td>+600k</td></tr>
+                    <tr><td>The Torah</td><td>+160k</td></tr>
+                    <tr><td>The Quran</td><td>+140k</td></tr>
+                    <tr class="highlight"><td>Aue</td><td>133 words</td></tr>
+                </table>
+                <p>Straight to the point, for joy.</p>
+                <a>
+                    <img class="small"
+                         src="https://www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-black-borders-png-transparent-background.png"> @aue4joy</a>
+                </a>
+            </ad>
+        </ads>
+        <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><a rel="cc:attributionURL" property="dct:title" href="https://phunanon.github.io/Aue">Aue</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/phunanon/Aue">Patrick Bowen</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a></p>
+        <p>Feel free to <a href="mailto:phun@protonmail.com">email me</a>.</p>
+    </body>
+</html>
