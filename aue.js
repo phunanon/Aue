@@ -45,7 +45,7 @@ const db = {
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnqrs"],
     ["Abortion", "Pregnancy is of bodily constitution, permitting termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hiknprs"],
     ["Responsible parenthood", "Plan your parenthood carefully. Use contraceptive & fertility methods as desired. Consider adoption after one biological child.", "ijknqrs"],
-    ["Cooperation", "Encourage cooperation over competition in all disciplines except recreation.", "ijlrs"],
+    ["Cooperation", "Encourage cooperation over competition in all disciplines, excluding recreation.", "ijlrs"],
     ["Borrow reality", "Know we borrow the present from future beings and our future selves. Keep and ensure a healthy reality.", "iklmnrs"],
     ["Research participation", "Be aware of safe medical or scientific research, & participate & benefit with joy. Also donating bodily material, such as matched blood, tissue, or hair.", "iklmnrs"],
     ["Existence", "To us the universe is perfect as it needed to be so for our existence.", "ir"],
