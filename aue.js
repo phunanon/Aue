@@ -2,10 +2,10 @@ const db = {
   "aue": [
     ["a", "Here, use intelligence & sensibility;"],
     ["b", "have faith in Aue & your abilities."],
-    ["c", "This is knowledge, to be shared, preserved, for joy."],
+    ["c", "This is knowledge, to share, preserve, for joy."],
     ["d", "It is shared to you, rejoice!"],
     ["e", "Record, preach, listen to the joy."],
-    ["f", "Nature & bodily constitution is formed now only;"],
+    ["f", "Nature, so body, so mind, are of now;"],
     ["g", "after death is scattering."],
     ["h", "Primitive evolution gave joy & woe in sentience."],
     ["i", "Life, evolved together, shares the universe."],
@@ -79,7 +79,7 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     <b>Record & preach the joy.</b> Why? To help the propagation of Aue and therefore the joy that comes with it, and to codify appraisal and history. One could quietly and solitarily follow Aue, but that would virtually denying any benefits one experiences for others.`],
     ["f", `Ephemeral uniqueness. This is the first of the substantial verses of Aue which make hard assertions. One can also tell this by seeing it is the first citation of five heavily-referenced interpretations. The shape and size of verse references can tell you a lot about its nature. 
     Aue has a materialistic view of the world, rooted in science; the human brain is certainly theoretically capable of being conscious, smart, emotional, etc, as a self-contained organ. 
-    This verse is about the miraculous existence of us as individuals, and of nature, our eventual waste, and the impracticality of our reformation after the fact. Our bodies aren't very unique and have been replicated billions of times, but our personalities are a distinct artefact. Alas, they are bound to our organic constitution, currently susceptible to total decay. After this decay, the unique cluster of brain matter constituting our individuality is lost. Notice, this verse is written as "is formed now only" not "forms only now" or "exists only now" etc; it is not speaking of nature and bodily constitution existing only here and now in the universe, but rather the instances of it this instant, as you read. In fact there is likely extra-terrestrial life.
+    This verse is about the miraculous existence of us as individuals, and of nature, our eventual waste, and the impracticality of our reformation after the fact. Our bodies aren't very unique and have been replicated billions of times, but our personalities are a distinct artefact. Alas, they are bound to our organic constitution, currently susceptible to total decay. After this decay, the unique cluster of brain matter constituting our individuality is lost.
     The interpretations of this verse address <i>perimortem</i> (just before and after death) issues of us and nature. The protection of what we have now through <i>Ecology</i>; dashing the futile wish for your corpse to be undisturbed (as it shall be anyway); the first of many reasons why bodily violation is a disturbing wrong; why one should keep healthy if wishing to preserve one's existence; and, if not wanting to preserve your existence, being assisted to expedite its end.`],
     ["g", `Leading on after verse <i>f</i> is a reminder of death. Not just the death of us, but of all beings, and nature as a whole.
     It is the harsh reality that from now until the heat death of the universe, our unique, contiguous consciousnesses won't reform. Assuredly, each mundane atom of one's mind and body will seep into nature, eventually subside into the Earth's mantle just before its almost total destruction through the inflation of the Sun. Beyond this, for trillions of years, it will not matter - you will have scattered long ago.
