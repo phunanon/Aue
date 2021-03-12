@@ -28,26 +28,33 @@ function DOM_click (e) {
 }
 function DOM_reset () {
   if (inClick) return;
-  e("h2").innerHTML = `Interpretations (${db.interpretations.length})`;
+  e("h2.interps").innerHTML = `Interpretations (${db.interpretations.length})`;
   es("verse, interp").forEach(el => {
     el.classList.remove("dim", "underlined", "unselectable");
   });
 }
 
 function DOM_display_Aue () {
-  e("aue").innerHTML = db.aue.map(
+  const aueEl = e("aue");
+  const interpsEl = e("interps");
+  const descsEl = e("descriptions");
+  const materialsEl = e("materials");
+  aueEl.innerHTML = db.aue.map(
     ([cite, body]) => `<verse data-cite="${cite}"><cite>${cite}</cite> ${body}</verse>`)
     .join(" ");
-  e("interps").innerHTML = db.interpretations.map(
-    ([title, body, cites]) => `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`)
-    .join(" ");
-  e("descriptions").innerHTML = db.verseDescriptions.map(
-    ([verse, body]) => `<description><cite>${verse}</cite> <b>${db.aue.find(([v]) => v == verse)[1]}</b>
-                        <p>${body.replace("\n", "</p></p>")}</p></description>`)
-    .join("");
-  e("materials").innerHTML = db.materials.map(
-    ([title, url, comment]) => `<material><a href="${url}"><i>${title}</i></a>${comment}</material>`)
-    .join("");
+  if (interpsEl)
+    interpsEl.innerHTML = db.interpretations.map(
+      ([title, body, cites]) => `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`)
+      .join(" ");
+  if (descsEl)
+    descsEl.innerHTML = db.verseDescriptions.map(
+      ([verse, body]) => `<description><cite>${verse}</cite> <b>${db.aue.find(([v]) => v == verse)[1]}</b>
+                          <p>${body.replace("\n", "</p></p>")}</p></description>`)
+      .join("");
+  if (materialsEl)
+    materialsEl.innerHTML = db.materials.map(
+      ([title, url, comment]) => `<material><a href="${url}"><i>${title}</i></a>${comment}</material>`)
+      .join("");
 
   document.body.addEventListener('click', () => {
     if (window.getSelection().type == "Range")

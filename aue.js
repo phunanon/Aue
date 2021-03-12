@@ -2,12 +2,12 @@ const db = {
   "aue": [
     ["a", "Here, use intelligence & sensibility;"],
     ["b", "have faith in Aue & your abilities."],
-    ["c", "This is knowledge, to be shared, preserved, for joy."],
+    ["c", "This is knowledge, to share, preserve, for joy."],
     ["d", "It is shared to you, rejoice!"],
     ["e", "Record, preach, listen to the joy."],
-    ["f", "Nature & bodily constitution is formed now only;"],
+    ["f", "Nature, so body, so mind, are of now;"],
     ["g", "after death is scattering."],
-    ["h", "Primitive evolution gave joy & woe in sentience."],
+    ["h", "Evolution gave joy & woe in sentience."],
     ["i", "Life, evolved together, shares the universe."],
     ["j", "Time, volatile, should be precious & used well."],
     ["k", "Know of woe, & seek joy with joy & praise."],
@@ -15,7 +15,7 @@ const db = {
     ["m", "Oppose harm to it, & bolster good."],
     ["n", "Have empathy, & seek others' emulation."],
     ["o", "Some woe is incited, inflicted;"],
-    ["p", "protect yourself & joy, & seek less belligerence."],
+    ["p", "protect yourself & joy, reduce belligerence."],
     ["q", "Some woe is ignorantly fed, so exhibit Aue."],
     ["r", "Keep critical faith in science & knowledge;"],
     ["s", "wielded for joy, impedes known woe, grow it."]
@@ -45,7 +45,7 @@ const db = {
     ["Veganism", "Seek to exclude, as far as is possible & practicable, all forms of exploitation of, & cruelty to, animals for food, clothing or any other purpose.", "hiklmnqrs"],
     ["Abortion", "Pregnancy is of bodily constitution, permitting termination before the unborn may feel woe. Soothe emotions by aiding other life to flourish & grow.", "hiknprs"],
     ["Responsible parenthood", "Plan your parenthood carefully. Use contraceptive & fertility methods as desired. Consider adoption after one biological child.", "ijknqrs"],
-    ["Cooperation", "Encourage cooperation over competition in all disciplines except recreation.", "ijlrs"],
+    ["Cooperation", "Encourage cooperation over competition in all disciplines, excluding recreation.", "ijlrs"],
     ["Borrow reality", "Know we borrow the present from future beings and our future selves. Keep and ensure a healthy reality.", "iklmnrs"],
     ["Research participation", "Be aware of safe medical or scientific research, & participate & benefit with joy. Also donating bodily material, such as matched blood, tissue, or hair.", "iklmnrs"],
     ["Existence", "To us the universe is perfect as it needed to be so for our existence.", "ir"],
@@ -59,8 +59,8 @@ const db = {
   ],
   "verseDescriptions": [
     ["a", `I find this really important right now, in the early days of Aue being shared, where it's conceivable only I have read Aue and understood.
-<b>Here, use intelligence & sensibility.</b> It's a very direct verse, calling upon innate abilities we all have, to discover Aue. Aue is not written for its face value, it is written to be read again & again until understood, with sensibility – a serious attitude. <b>Here, use intelligence & sensibility.</b>
-The interpretations encourage a regular revision of Aue in respect to one's life, and publicly so.`],
+    <b>Here, use intelligence & sensibility.</b> It's a very direct verse, calling upon innate abilities we all have, to discover Aue. Aue is not written for its face value, it is written to be read again & again until understood, with sensibility – a serious attitude. <b>Here, use intelligence & sensibility.</b>
+    The interpretations encourage a regular revision of Aue in respect to one's life, and publicly so.`],
     ["b", `This verse is cited in the first five interpretations of Aue, and touches upon not just its own propagation, but also on a time which can be really hard to keep faith - austerity.
     One may read Aue, understand, and benefit, but when times are tough it can be easy to drop empathy and abandon any "peace-time" morals. Aue has no conditional clause saying "have faith, only when times are good"; you are asked to have faith not only in Aue, but yourself - your own ability to understand.
     With revision you should have made peace with the knowledge Aue provides, so even in the hardest times, or the quickest judgements, you can rely on it. It also asks that you remain humble when times are good, and not to shun Aue or others.
@@ -70,7 +70,7 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     What is sharing? It is making it accessible to others. Translation, summaries, conversation, and education are all important facets of this.
     What is preservation of knowledge? It is immortalising through accurate copies, guarded from misunderstanding. Language changes, and English is no exception.
     And now is a good time to focus on a core concept of Aue: <b>joy</b>. A state of happiness, felicity, it is mentioned throughout Aue, coveted. Further verses will allude to its relationship with <b>woe</b>. Aue asks in verse <i>k</i>: <b>Know of woe, & seek out joy with joy & praise.</b>
-    Therefore an Auen should include these revelations and praises in their revisions, summaries, and always remember what Aue clearly states to be: <b>This is knowledge, to be shared, preserved, inspiring joy.</b>`],
+    Therefore an Auen should include these revelations and praises in their revisions, summaries, and always remember what Aue clearly states to be: <b>This is knowledge, to share, preserve, for joy.</b>`],
     ["d", `Remarkably not the shortest verse in Aue, it states that because you now have access to the Aue doctrine that you could rejoice. However, do not mistaken pointing at the moon for the moon itself! The first time you read this verse you won't be feeling particularly joyful.
     Remember, Aue is to be revised and read over and over until it makes sense for you. Each time you read across this verse - and you should, as all are important - you will hopefully feel the joy has grown. And, one might also feel the need to impart this knowledge onto others as I am.
     Two new interpretations that cite this verse are <i>Reflection</i> and <i>Gratitude</i>. These constitute a reflection upon reality, and particularly a gratuitous reflection for those who bring you joy. Gratitude has a fairly weak citation, but just as you might feel joy for Aue, rejoice for other things in life - a recurring cycle. Aue is all about seeing the wonderful opportunity for joy we were born into, and the capacity we have for it, with billions of fellow humans, an uncountable number of other beings, and having been born from the exact conditions for our livelihood.
@@ -79,13 +79,13 @@ The interpretations encourage a regular revision of Aue in respect to one's life
     <b>Record & preach the joy.</b> Why? To help the propagation of Aue and therefore the joy that comes with it, and to codify appraisal and history. One could quietly and solitarily follow Aue, but that would virtually denying any benefits one experiences for others.`],
     ["f", `Ephemeral uniqueness. This is the first of the substantial verses of Aue which make hard assertions. One can also tell this by seeing it is the first citation of five heavily-referenced interpretations. The shape and size of verse references can tell you a lot about its nature. 
     Aue has a materialistic view of the world, rooted in science; the human brain is certainly theoretically capable of being conscious, smart, emotional, etc, as a self-contained organ. 
-    This verse is about the miraculous existence of us as individuals, and of nature, our eventual waste, and the impracticality of our reformation after the fact. Our bodies aren't very unique and have been replicated billions of times, but our personalities are a distinct artefact. Alas, they are bound to our organic constitution, currently susceptible to total decay. After this decay, the unique cluster of brain matter constituting our individuality is lost. Notice, this verse is written as "is formed now only" not "forms only now" or "exists only now" etc; it is not speaking of nature and bodily constitution existing only here and now in the universe, but rather the instances of it this instant, as you read. In fact there is likely extra-terrestrial life.
+    This verse is about the miraculous existence of us as individuals, and of nature, our eventual waste, and the impracticality of our reformation after the fact. Our bodies aren't very unique and have been replicated billions of times, but our personalities are a distinct artefact. Alas, they are bound to our organic constitution, currently susceptible to total decay. After this decay, the unique cluster of brain matter constituting our individuality is lost.
     The interpretations of this verse address <i>perimortem</i> (just before and after death) issues of us and nature. The protection of what we have now through <i>Ecology</i>; dashing the futile wish for your corpse to be undisturbed (as it shall be anyway); the first of many reasons why bodily violation is a disturbing wrong; why one should keep healthy if wishing to preserve one's existence; and, if not wanting to preserve your existence, being assisted to expedite its end.`],
     ["g", `Leading on after verse <i>f</i> is a reminder of death. Not just the death of us, but of all beings, and nature as a whole.
     It is the harsh reality that from now until the heat death of the universe, our unique, contiguous consciousnesses won't reform. Assuredly, each mundane atom of one's mind and body will seep into nature, eventually subside into the Earth's mantle just before its almost total destruction through the inflation of the Sun. Beyond this, for trillions of years, it will not matter - you will have scattered long ago.
     The new interpretations citing <i>g</i> draw upon this.`],
     ["h", `Some may wonder why there is joy and woe in the world at the same time, why it is experienced unequally. It is simply nature and the fittest way to survive our environments. Plants and even microbes will respond to positive and negative stimuli &mdash; a dichotomy which we intelligent beings apply. They do not understand what is positive and negative, with only genetic impetus. These genes are the product of innumerable mutations alongside innumerable environmental pressures &mdash; evolution, primitive. Our acute sense of joy and woe is owed to our consciousness.
-    The most familiar yet most mysterious aspect of our lives is consciousness. An arguably beautiful character of this is empathy - a linchpin of both society and Aue. It is not just good for good's sake, but a winning trait of our species. The interpretations commencing with a h citation encourage this good both in oneself and for others. <i>Phobias</i> encourages addressing irrational fears; <i>Charity</i> encourages material aid and ongoing easement for those in need; <i>Veganism</i> strictly encourages reducing harm to animals currently enslaved through societal inertia; <i>Abortion</i> addresses pregnancy and its termination as valuable only before it could effect woe &mdash; thankfully plenty of time to make a decision.`],
+    The most familiar yet most mysterious aspect of our lives is consciousness. An arguably beautiful character of this is empathy - a linchpin of both society and Aue. It is not just good for good's sake, but a winning trait of our species. The interpretations commencing with a <i>h</i> citation encourage this good both in oneself and for others. <i>Phobias</i> encourages addressing irrational fears; <i>Charity</i> encourages material aid and ongoing easement for those in need; <i>Veganism</i> strictly encourages reducing harm to animals currently enslaved through societal inertia; <i>Abortion</i> addresses pregnancy and its termination as valuable only before it could effect woe &mdash; thankfully plenty of time to make a decision.`],
     ["i", `This verse again repeats the idea that life evolves, but that's not its statement. It's reminding us that live evolves together, in the same universe. We have effects on one another, between species, sizes, ages, and location. We share the precious conditions we have, and therefore should be conscious of our effects.
     The previously seen interpretations here, such as <i>Ecology</i>, <i>Veganism</i>, etc, focus on these relationships to bolster good. The new interpretations include defining a relationship between parents and offspring; encouraging cooperation over competition; a reminder of our actions impacting those in the future; of participating in research as we are of one another; and a small refutation on the nature of our seemingly designed universe—life, evolved together, shares (and have shared) the universe. 
     Of course, it is up to us to be good. There is no supernatural tally of virtue & sin, karma, and only through empathy (no small thing) and utilitarianism will we bolster good.`],
