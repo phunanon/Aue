@@ -7,7 +7,7 @@ const db = {
     ["e", "Record, speak, listen to the joy."],
     ["f", "Nature, so body, so mind, are of now;"],
     ["g", "after death is scattering."],
-    ["h", "Joy & woe in sentience came from evolution."],
+    ["h", "From evolution came joy & woe in sentience."],
     ["i", "Life, evolved together, shares the universe."],
     ["j", "Time, volatile, should be precious & used well."],
     ["k", "Know of woe and seek joy happily."],
