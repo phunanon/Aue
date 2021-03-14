@@ -68,6 +68,7 @@ description {
 material {
   display: block;
   padding-top: 1rem;
+  line-height: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
