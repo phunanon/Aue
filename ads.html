@@ -30,11 +30,18 @@ ad {
     margin: .5em;
     width: 26rem;
     height: 26rem;
-    background-image: url(Aue.svg);
-    background-position: calc(100% - 1em) calc(100% - 1em);
-    background-size: 1.5em;
-    background-repeat: no-repeat;
     outline: .1em solid #000;
+}
+ad::after {
+    content: "";
+    right: 1em;
+    bottom: 1em;
+    width: 1.25em;
+    height: 1.25em;
+    position: absolute;
+    background-image: url(media/Aue-cropped.png);
+    background-size: 1.25em;
+    background-repeat: no-repeat;
 }
 ad p {
     padding: .5em .1em;
@@ -78,6 +85,49 @@ td {
         <h1><img src="Aue.svg">Aue</h1>
         <h2>Advertisements</h2>
         <ads>
+            <ad>
+                <div class="adherence-ad">
+                    <div class="Header">what Aue adherence involves</div>
+                    <div class="one">
+                        a personal understanding of Aue through study & reflection
+                        <span>📖 🧘</span>
+                    </div>
+                    <div class="two">
+                        speaking with other adherents about Aue, and joy & woe in life
+                        <span>👥 😄</span>
+                    </div>
+                    <div class="three">
+                        local & global awareness; effective charity & diligent action
+                        <span>🌐 🎗️</span>
+                    </div>
+                    <div class="four">
+                        ecological responsibility to reverse climate change
+                        <span>🌱 🌄</span>
+                    </div>
+                </div>
+                <style>
+                    .adherence-ad {
+                        font-size: .7em;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-areas: "Header Header" "one two" "three four";
+                    }
+                    .adherence-ad div:not(:nth-child(1)) {
+                        padding: .5em;
+                    }
+                    .adherence-ad div span {
+                        font-size: 2em;
+                        display: block;
+                        text-align: center;
+                        padding-top: .2em;
+                    }
+                    .Header { grid-area: Header; font-size: 1.2em; }
+                    .one   { grid-area: one;   background-color: rgba(255, 255, 128, 1); }
+                    .two   { grid-area: two;   background-color: rgba(170, 170, 255, 1); }
+                    .three { grid-area: three; background-color: rgba(255, 220, 220, 1); }
+                    .four  { grid-area: four;  background-color: rgba(140, 255, 140, 1); }
+                </style>
+            </ad>
             <ad>
                 enjoy food! We evolved for it
                 <img class="large" src="media/food.jpg">
