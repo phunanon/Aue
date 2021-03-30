@@ -120,23 +120,35 @@ const db = {
     [
       "Sapiens – A Brief History of Humankind",
       "https://www.ynharari.com/book/sapiens-2",
-      ". A fantastic sensationalised account of the rise of our species, <i>Homo sapiens</i>. It can help a reader understand their ancestor's journey across the Earth and through time. I have found myself a product of evolution moreso than ever before after reading, and can derive true existential purpose. Its unique commentary on social aspects of our species is critical to understanding our history and abilities."
+      "A fantastic sensationalised account of the rise of our species, <i>Homo sapiens</i>. It can help a reader understand their ancestor's journey across the Earth and through time. I have found myself a product of evolution moreso than ever before after reading, and can derive true existential purpose. Its unique commentary on social aspects of our species is critical to understanding our history and abilities."
     ], [
       "Why Socialism?",
       "https://monthlyreview.org/2009/05/01/why-socialism",
-      ` A major inspiration of Aue, concerning the dependence we have on one another for our livelihood. The abstraction of society Einstein provides touches both material and psychological aspects. We need others, and the mode of our material conditions greatly affects satisfaction of this.`
+      `A major inspiration of Aue, concerning the dependence we have on one another for our livelihood. The abstraction of society Einstein provides touches both material and psychological aspects. We need others, and the mode of our material conditions greatly affects satisfaction of this.`
     ], [
       "Mind Field",
       "https://www.youtube.com/watch?v=iqKdEhx-dD4&list=PL-D2eb2vBV7LzsXkzeinc7v1eZ-22AaCs",
-      ". A fun, practical, modern series exploring concepts of neurobiology and psychology both lay and academic. Though it uses small participant sizes, it readily cites wider research and forms great habits of curiosity in its audience."
+      "A fun, practical, modern series exploring concepts of neurobiology and psychology both lay and academic. Though it uses small participant sizes, it readily cites wider research and forms great habits of curiosity in its audience."
     ], [
       "Piltdown Man",
       "https://en.wikipedia.org/wiki/Piltdown_Man",
-      ". An example of how critical faith in science was exercised, in the face of fake evidence. For some time the conclusions drawn from its findings were accepted, but not by all, and rejected once found out. It is important that its legacy among the public was rectified, and its false findings are archived."
+      "An example of how critical faith in science was exercised, in the face of fake evidence. For some time the conclusions drawn from its findings were accepted, but not by all, and rejected once found out. It is important that its legacy among the public was rectified, and its false findings are archived."
     ], [
       "Daniel Amen TED Talk",
       "https://www.youtube.com/watch?v=esPRsT-lmw8",
-      ". Using science to identify and alleviate anti-social behaviour and other mental deviations, also adjusting moral responsibility of the afflicted. Rightfully, it is a controversial subject, but if we have the power to heal&mdash;and only healing, restoration&mdash;then we should explore it. Caution should be exercised to ensure it is a purely medicinal, restorative, ethical science. “Behaviour is not the problem, behaviour is an expression of the problem.”"
+      "Using science to identify and alleviate anti-social behaviour and other mental deviations, also adjusting moral responsibility of the afflicted. Rightfully, it is a controversial subject, but if we have the power to heal&mdash;and only healing, restoration&mdash;then we should explore it. Caution should be exercised to ensure it is a purely medicinal, restorative, ethical science. “Behaviour is not the problem, behaviour is an expression of the problem.”"
+    ], [
+      "SciShow YouTube channel",
+      "https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow",
+      ""
+    ], [
+      "PBS Eons",
+      "https://www.youtube.com/channel/UCzR-rom72PHN9Zg7RML9EbA",
+      ""
+    ], [
+      "Healthline",
+      "https://www.healthline.com",
+      `A great resource for questions about daily health, diseases, conditions, diets, and other impacts of lifestyle on health. They are credible and science-first, keeping advice simple and effective, with <a href="https://www.healthline.com/process">great editorial process</a>.`
     ]
   ],
 }

@@ -53,7 +53,7 @@ function DOM_display_Aue () {
       .join("");
   if (materialsEl)
     materialsEl.innerHTML = db.materials.map(
-      ([title, url, comment]) => `<material><a href="${url}"><i>${title}</i></a>${comment}</material>`)
+      ([title, url, comment]) => `<material><a href="${url}"><i>${title}</i></a>${title.endsWith("?") ? "" : "."} ${comment}</material>`)
       .join("");
 
   document.body.addEventListener('click', () => {
