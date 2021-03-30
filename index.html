@@ -10,7 +10,7 @@
         <script src="aue.js"></script>
         <script src="index.js"></script>
     </head>
-    <body onload="DOM_display_Aue()">
+    <body onload="DOM_display_Aue(true)">
         <column class="thin">
             <h1><img src="Aue.svg">Aue</h1>
             <aue></aue>
@@ -21,20 +21,23 @@
                 <a href="https://github.com/phunanon/Aue">Github</a> |
                 <a href="mailto:phun@protonmail.com">Email</a>
             </p>
+            <br>
+            <h2>Select a contributor</h2>
+            <p>View contributions of Aue adherents: interpretations, verse descriptions, and materials.</p>
+            <select id="contributor" onchange="DOM_display_Aue()">
+            </select>
+            <p>If you would like to contribute, get in touch with Patrick Bowen using the links above.</p>
         </column>
-        <column>
+        <column class="interps">
             <h2 class="interps">Interpretations</h2>
-            <p>Provided by the founder, Patrick Bowen. Others are free to interpret Aue also.</p>
             <interps></interps>
         </column>
-        <column>
+        <column class="descs">
             <h2>Verse Descriptions</h2>
-            <p>Originally written on <a href="https://discord.gg/8DHe49UeGx">Discord</a>, by Patrick Bowen, 2020-21.</p>
-            <descriptions></descriptions>
+            <descs></descs>
         </column>
-        <column class="thin">
+        <column class="thin materials">
             <h2>Materials</h2>
-            <p>Media suggested by the founder, Patrick Bowen.</p>
             <materials></materials>
         </column>
     </body>
