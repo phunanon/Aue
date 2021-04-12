@@ -294,6 +294,15 @@
       "Healthline",
       "https://www.healthline.com",
       "A great resource for questions about daily health, diseases, conditions, diets, and other impacts of lifestyle on health. They are credible and science-first, keeping advice simple and effective, with <a href=\"https://www.healthline.com/process\">great editorial process</a>."
+    ],
+    [
+      "Indices of prosperity",
+      [
+        "https://climateactiontracker.org/countries/",
+        "https://en.wikipedia.org/wiki/Global_Peace_Index",
+        "https://en.wikipedia.org/wiki/Gini_coefficient"
+      ],
+      ""
     ]
   ]
 }

@@ -20,6 +20,7 @@ function DOM_verseHover() {
     db.interpretations.length - toDim.length
   })`;
 }
+
 function DOM_interpHover() {
   if (inClick) return;
   DOM_reset();
@@ -29,6 +30,7 @@ function DOM_interpHover() {
       !this.dataset.cites.includes(db.aue[i][0]) && el.classList.add("dim")
   );
 }
+
 function DOM_click(e) {
   if (noInterps()) return;
   if (!(inClick = !inClick)) DOM_reset();
@@ -38,6 +40,7 @@ function DOM_click(e) {
   }
   e.stopPropagation();
 }
+
 function DOM_reset() {
   if (inClick) return;
   e("h2.interps").innerHTML = `Interpretations (${
@@ -46,6 +49,16 @@ function DOM_reset() {
   es("verse, interp").forEach(el =>
     el.classList.remove("dim", "underlined", "unselectable")
   );
+}
+
+function materialHtml(title, urls, comment) {
+  const punc = title.endsWith("?") ? "" : ".";
+  const titleHtml = Array.isArray(urls)
+    ? `<i>${title}</i> (${urls
+        .map((u, i) => `<a href="${u}">${i + 1}</a>`)
+        .join(", ")})`
+    : `<a href="${urls}"><i>${title}</i></a>`;
+  return `<material>${titleHtml}${punc} ${comment}</material>`;
 }
 
 async function DOM_display_Aue(isFirstLoad = false) {
@@ -85,20 +98,15 @@ async function DOM_display_Aue(isFirstLoad = false) {
   if (descsEl && !noDescs())
     descsEl.innerHTML = db.verseDescriptions
       .map(
-        ([verse, body]) => `<description><cite>${verse}</cite> <b>${
-          db.aue.find(([v]) => v == verse)[1]
-        }</b>
-                          <p>${body.replace("\n", "</p><p>")}</p></description>`
+        ([verse, body]) =>
+          `<description><cite>${verse}</cite> <b>${
+            db.aue.find(([v]) => v == verse)[1]
+          }</b><p>${body.replace("\n", "</p><p>")}</p></description>`
       )
       .join("");
   if (materialsEl && !noMaterials())
     materialsEl.innerHTML = db.materials
-      .map(
-        ([title, url, comment]) =>
-          `<material><a href="${url}"><i>${title}</i></a>${
-            title.endsWith("?") ? "" : "."
-          } ${comment}</material>`
-      )
+      .map(([title, url, comment]) => materialHtml(title, url, comment))
       .join("");
   [
     ess("column.interps").display,
