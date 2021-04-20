@@ -1,4 +1,5 @@
 const e = el => document.querySelector(el);
+const e_safe = el => e(el) ?? {};
 const es = el => [...document.querySelectorAll(el)];
 const ess = el => e(el).style;
 
@@ -43,7 +44,7 @@ function DOM_click(e) {
 
 function DOM_reset() {
   if (inClick) return;
-  e("h2.interps").innerHTML = `Interpretations (${
+  e_safe("h2.interps").innerHTML = `Interpretations (${
     db.interpretations?.length ?? 0
   })`;
   es("verse, interp").forEach(el =>
@@ -63,18 +64,20 @@ function materialHtml(title, urls, comment) {
 
 async function DOM_display_Aue(isFirstLoad = false) {
   const contributorSelect = e("select#contributor");
-  let contributor = "Patrick Bowen";
-  if (isFirstLoad) {
-    db.contributors.forEach(c => contributorSelect.add(new Option(c)));
-  } else {
-    contributor = contributorSelect.value;
+  if (contributorSelect) {
+    let contributor = "Patrick Bowen";
+    if (isFirstLoad) {
+      db.contributors.forEach(c => contributorSelect.add(new Option(c)));
+    } else {
+      contributor = contributorSelect.value;
+    }
+    try {
+      const contribution = await (
+        await fetch(`contributions/${contributor.replaceAll(" ", "_")}.json`)
+      ).json();
+      db = { ...db, ...contribution };
+    } catch (e) {}
   }
-  try {
-    const contribution = await (
-      await fetch(`contributions/${contributor.replaceAll(" ", "_")}.json`)
-    ).json();
-    db = { ...db, ...contribution };
-  } catch (e) {}
 
   const [aueEl, interpsEl, descsEl, materialsEl] = [
     e("aue"),
@@ -88,13 +91,14 @@ async function DOM_display_Aue(isFirstLoad = false) {
         `<verse data-cite="${cite}"><cite>${cite}</cite> ${body}</verse>`
     )
     .join(" ");
-  if (interpsEl && !noInterps())
+  if (interpsEl && !noInterps())  {
     interpsEl.innerHTML = db.interpretations
       .map(
         ([title, body, cites]) =>
           `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`
       )
       .join(" ");
+  }
   if (descsEl && !noDescs())
     descsEl.innerHTML = db.verseDescriptions
       .map(
@@ -108,13 +112,15 @@ async function DOM_display_Aue(isFirstLoad = false) {
     materialsEl.innerHTML = db.materials
       .map(([title, url, comment]) => materialHtml(title, url, comment))
       .join("");
-  [
-    ess("column.interps").display,
-    ess("column.descs").display,
-    ess("column.materials").display,
-  ] = [noInterps(), noDescs(), noMaterials()].map(b =>
-    b ? "none" : "inline-block"
-  );
+
+  const doShow = (elName, boolean) => {
+    if (e(elName)) {
+      ess(elName).display = boolean ? "none" : "inline-block";
+    }
+  }
+  doShow("column.interps", !noInterps());
+  doShow("column.descs", !noDescs());
+  doShow("column.materials", !noMaterials());
 
   document.body.addEventListener("click", () => {
     if (window.getSelection().type == "Range") return;
