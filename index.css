@@ -54,7 +54,7 @@ interp i {
 
 interp.dim,
 verse.dim {
-  opacity: 0.25;
+  opacity: 0.33;
 }
 .unselectable {
   user-select: none;

@@ -1,5 +1,4 @@
 const e = el => document.querySelector(el);
-const e_safe = el => e(el) ?? {};
 const es = el => [...document.querySelectorAll(el)];
 const ess = el => e(el).style;
 
@@ -44,7 +43,7 @@ function DOM_click(e) {
 
 function DOM_reset() {
   if (inClick) return;
-  e_safe("h2.interps").innerHTML = `Interpretations (${
+  e("h2.interps").innerHTML = `Interpretations (${
     db.interpretations?.length ?? 0
   })`;
   es("verse, interp").forEach(el =>
@@ -63,35 +62,44 @@ function materialHtml(title, urls, comment) {
 }
 
 async function DOM_display_Aue(isFirstLoad = false) {
-  const contributorSelect = e("select#contributor");
-  if (contributorSelect) {
-    let contributor = "Patrick Bowen";
-    if (isFirstLoad) {
-      db.contributors.forEach(c => contributorSelect.add(new Option(c)));
-    } else {
-      contributor = contributorSelect.value;
-    }
-    try {
-      const contribution = await (
-        await fetch(`contributions/${contributor.replaceAll(" ", "_")}.json`)
-      ).json();
-      db = { ...db, ...contribution };
-    } catch (e) {}
-  }
-
-  const [aueEl, interpsEl, descsEl, materialsEl] = [
-    e("aue"),
-    e("interps"),
-    e("descs"),
-    e("materials"),
-  ];
-  aueEl.innerHTML = db.aue
+  e("aue").innerHTML = db.aue
     .map(
       ([cite, body]) =>
         `<verse data-cite="${cite}"><cite>${cite}</cite> ${body}</verse>`
     )
     .join(" ");
-  if (interpsEl && !noInterps())  {
+
+  const [contributorSelect, interpsEl, descsEl, materialsEl] = [
+    e("select#contributor"),
+    e("interps"),
+    e("descs"),
+    e("materials"),
+  ];
+
+  if (!contributorSelect || !interpsEl || !descsEl || !materialsEl){
+    return;
+  }
+
+  let contributor = "Patrick Bowen";
+  if (isFirstLoad) {
+    es("verse").forEach(l => {
+      l.addEventListener("mouseover", DOM_verseHover);
+      l.addEventListener("click", DOM_verseHover);
+      l.addEventListener("click", DOM_click);
+      l.addEventListener("mouseout", DOM_reset);
+    });
+    db.contributors.forEach(c => contributorSelect.add(new Option(c)));
+  } else {
+    contributor = contributorSelect.value;
+  }
+  try {
+    const contribution = await (
+      await fetch(`contributions/${contributor.replaceAll(" ", "_")}.json`)
+    ).json();
+    db = { ...db, ...contribution };
+  } catch (e) {}
+
+  if (!noInterps()) {
     interpsEl.innerHTML = db.interpretations
       .map(
         ([title, body, cites]) =>
@@ -99,7 +107,7 @@ async function DOM_display_Aue(isFirstLoad = false) {
       )
       .join(" ");
   }
-  if (descsEl && !noDescs())
+  if (!noDescs())
     descsEl.innerHTML = db.verseDescriptions
       .map(
         ([verse, body]) =>
@@ -108,16 +116,14 @@ async function DOM_display_Aue(isFirstLoad = false) {
           }</b><p>${body.replace("\n", "</p><p>")}</p></description>`
       )
       .join("");
-  if (materialsEl && !noMaterials())
+  if (!noMaterials())
     materialsEl.innerHTML = db.materials
       .map(([title, url, comment]) => materialHtml(title, url, comment))
       .join("");
 
   const doShow = (elName, boolean) => {
-    if (e(elName)) {
-      ess(elName).display = boolean ? "none" : "inline-block";
-    }
-  }
+      ess(elName).display = boolean ? "inline-block" : "none";
+  };
   doShow("column.interps", !noInterps());
   doShow("column.descs", !noDescs());
   doShow("column.materials", !noMaterials());
@@ -127,15 +133,9 @@ async function DOM_display_Aue(isFirstLoad = false) {
     inClick = false;
     DOM_reset();
   });
-  es("verse").forEach(l => {
-    l.addEventListener("mouseover", DOM_verseHover);
-    l.addEventListener("click", DOM_verseHover);
-  });
   es("interp").forEach(l => {
     l.addEventListener("mouseover", DOM_interpHover);
     l.addEventListener("click", DOM_interpHover);
-  });
-  es("verse, interp").forEach(l => {
     l.addEventListener("click", DOM_click);
     l.addEventListener("mouseout", DOM_reset);
   });

@@ -1,5 +1,5 @@
 let db = {
-  "aue": [
+  aue: [
     ["a", "Think sensibly for Aue;"],
     ["b", "believe in it & your abilities."],
     ["c", "This is knowledge, to share, preserve, for joy."],
@@ -18,9 +18,9 @@ let db = {
     ["p", "protect against it and reduce belligerence."],
     ["q", "Some woe is ignorantly fed, so show Aue."],
     ["r", "Keep critical faith in science & knowledge;"],
-    ["s", "wielded for joy, impedes known woe, grow it."]
+    ["s", "wielded for joy, impedes known woe, grow it."],
   ],
-  "contributors": [
+  contributors: [
     "Patrick Bowen"
   ],
-}
+};
