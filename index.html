@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
-    <title>Aue - a religion</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/svg+xml" href="Aue.svg" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="aue.js"></script>
-    <script src="index.js"></script>
-  </head>
-  <body onload="DOM_display_Aue(true)">
-    <column class="thin">
-      <h1><img src="Aue.svg" />Aue</h1>
-      <aue></aue>
-      <br />
-      <p class="unselectable">
-        <a href="https://discord.gg/8DHe49UeGx">Discord</a> |
-        <a href="https://www.instagram.com/aue4joy">Instagram</a> |
-        <a href="https://github.com/phunanon/Aue">Github</a> |
-        <a href="mailto:phun@protonmail.com">Email</a>
-      </p>
-      <br />
-      <h2>Select a contributor</h2>
-      <p>
-        View contributions of Aue adherents: interpretations, verse
-        descriptions, and materials.
-      </p>
-      <select id="contributor" onchange="DOM_display_Aue()"></select>
-      <p>
-        If you would like to contribute, get in touch with Patrick Bowen using
-        the links above.
-      </p>
-    </column>
-    <column class="interps">
-      <h2 class="interps">Interpretations</h2>
-      <interps></interps>
-    </column>
-    <column class="descs">
-      <h2>Verse Descriptions</h2>
-      <descs></descs>
-    </column>
-    <column class="thin materials">
-      <h2>Materials</h2>
-      <materials></materials>
-    </column>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+        <title>Aue - a religion</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/svg+xml" href="Aue.svg" />
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js"></script>
+    </head>
+    <body onload="DOM_display_Aue(true)">
+        <column class="thin">
+            <h1><img src="Aue.svg" />Aue</h1>
+            <aue></aue>
+            <br />
+            <p class="unselectable">
+                <a href="https://discord.gg/8DHe49UeGx">Discord</a> |
+                <a href="https://www.instagram.com/aue4joy">Instagram</a> |
+                <a href="https://github.com/phunanon/Aue">Github</a> |
+                <a href="mailto:phun@protonmail.com">Email</a>
+            </p>
+        </column>
+        <contributions></contributions>
+    </body>
 </html>
