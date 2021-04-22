@@ -1,26 +1,22 @@
 let db = {
-  aue: [
-    ["a", "Think sensibly for Aue;"],
-    ["b", "believe in it & your abilities."],
-    ["c", "This is knowledge, to share, preserve, for joy."],
-    ["d", "It is shared to you, rejoice!"],
-    ["e", "Record, speak, listen to the joy."],
-    ["f", "Nature, so body, so mind, are of now;"],
-    ["g", "after death is scattering."],
-    ["h", "From evolution came joy & woe in sentience."],
-    ["i", "Life, evolved together, shares the universe."],
-    ["j", "Time, volatile, should be precious & used well."],
-    ["k", "Know of woe and seek joy happily."],
-    ["l", "Be comfortable relying on nature & society."],
-    ["m", "Oppose harm to it and uphold good."],
-    ["n", "Have empathy and seek others' emulation."],
-    ["o", "Some woe is incited, inflicted;"],
-    ["p", "protect against it and reduce belligerence."],
-    ["q", "Some woe is ignorantly fed, so show Aue."],
-    ["r", "Keep critical faith in science & knowledge;"],
-    ["s", "wielded for joy, impedes known woe, grow it."],
-  ],
-  contributors: [
-    "Patrick Bowen"
-  ],
+    aue: [
+        "Think sensibly for Aue;",
+        "believe in it & your abilities.",
+        "Share, preserve, exult it for joy.",
+        "Nature, so body, so mind, are of now;",
+        "after death is scattering.",
+        "Evolution gave joy & woe, sentience.",
+        "Life, together, share the universe.",
+        "Time, volatile, make precious.",
+        "Know of woe and seek joy happily.",
+        "Rely on nature & society in comfort.",
+        "Oppose harm and uphold empathy.",
+        "Seek peace to woe incited, inflicted.",
+        "Show Aue beside woe naively fed.",
+        "Believe critically in science;",
+        "wield for joy and grow it.",
+    ],
+    contributors: [
+        "Patrick Bowen"
+    ],
 };
