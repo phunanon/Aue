@@ -28,7 +28,7 @@ function DOM_interpHover() {
     DOM_reset();
     es("interp").forEach(el => el != this && el.classList.add("dim"));
     es("verse").forEach(
-        (el, i) => !this.dataset.cites.includes(db.aue[i][0]) && el.classList.add("dim"),
+        (el, i) => !this.dataset.cites.includes(i2c(i)) && el.classList.add("dim"),
     );
 }
 
