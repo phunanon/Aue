@@ -33,7 +33,7 @@ a {
 }
 
 verse,
-interp {
+opinion {
   display: block;
   line-height: 1.5rem;
   cursor: pointer;
@@ -46,11 +46,11 @@ column {
   text-align: justify;
 }
 
-interp {
+opinion {
   display: block;
 }
 
-interp.dim,
+opinion.dim,
 verse.dim {
   opacity: 0.33;
 }

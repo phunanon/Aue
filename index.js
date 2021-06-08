@@ -4,50 +4,50 @@ const ess = el => e(el).style;
 
 let inClick = false;
 
-const noInterps = () => typeof db.interpretations == "undefined";
+const noOpinions = () => typeof db.opinions == "undefined";
 const noDescs = () => typeof db.verseDescriptions == "undefined";
 const noMaterials = () => typeof db.materials == "undefined";
 
 function DOM_verseHover() {
-    if (inClick || noInterps()) {
+    if (inClick || noOpinions()) {
         return;
     }
     DOM_reset();
     es("verse").forEach(el => el != this && el.classList.add("dim"));
-    const toDim = es("interp").filter(
-        (el, i) => !db.interpretations[i][2].includes(this.dataset.cite),
+    const toDim = es("opinion").filter(
+        (el, i) => !db.opinions[i][2].includes(this.dataset.cite),
     );
     toDim.forEach(el => el.classList.add("dim"));
-    e("h2.interps").innerHTML = `Interpretations (${db.interpretations.length - toDim.length})`;
+    e("h2.opinions").innerHTML = `Opinions (${db.opinions.length - toDim.length})`;
 }
 
-function DOM_interpHover() {
+function DOM_opinionHover() {
     if (inClick) {
         return;
     }
     DOM_reset();
-    es("interp").forEach(el => el != this && el.classList.add("dim"));
+    es("opinion").forEach(el => el != this && el.classList.add("dim"));
     es("verse").forEach(
         (el, i) => !this.dataset.cites.includes(i2c(i)) && el.classList.add("dim"),
     );
 }
 
 function DOM_click(e) {
-    if (noInterps()) {
+    if (noOpinions()) {
         return;
     }
     if (!(inClick = !inClick)) DOM_reset();
     else {
         e.currentTarget.classList.add("underlined");
-        es("verse.dim, interp.dim").forEach(el => el.classList.add("unselectable"));
+        es("verse.dim, opinion.dim").forEach(el => el.classList.add("unselectable"));
     }
     e.stopPropagation();
 }
 
 function DOM_reset() {
     if (inClick) return;
-    e("h2.interps").innerHTML = `Interpretations (${db.interpretations?.length ?? 0})`;
-    es("verse, interp").forEach(el => el.classList.remove("dim", "underlined", "unselectable"));
+    e("h2.opinions").innerHTML = `Opinions (${db.opinions?.length ?? 0})`;
+    es("verse, opinion").forEach(el => el.classList.remove("dim", "underlined", "unselectable"));
 }
 
 function materialHtml(title, urls, comment) {
@@ -66,14 +66,14 @@ async function DOM_display_Aue(isFirstLoad = false) {
         .map((body, i) => `<verse data-cite="${i2c(i)}"><cite>${i2c(i)}</cite> ${body}</verse>`)
         .join(" ");
 
-    const [contributorSelect, interpsEl, descsEl, materialsEl] = [
+    const [contributorSelect, opinionsEl, descsEl, materialsEl] = [
         e("select#contributor"),
-        e("interps"),
+        e("opinions"),
         e("descs"),
         e("materials"),
     ];
 
-    if (!contributorSelect || !interpsEl || !descsEl || !materialsEl) {
+    if (!contributorSelect || !opinionsEl || !descsEl || !materialsEl) {
         return;
     }
 
@@ -96,11 +96,11 @@ async function DOM_display_Aue(isFirstLoad = false) {
         db = { ...db, ...contribution };
     } catch (e) {}
 
-    if (!noInterps()) {
-        interpsEl.innerHTML = db.interpretations
+    if (!noOpinions()) {
+        opinionsEl.innerHTML = db.opinions
             .map(
                 ([title, body, cites]) =>
-                    `<interp data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></interp>`,
+                    `<opinion data-cites="${cites}"><i>${title}</i>. ${body} <cite>${cites}</cite></opinion>`,
             )
             .join(" ");
     }
@@ -122,7 +122,7 @@ async function DOM_display_Aue(isFirstLoad = false) {
     const doShow = (elName, boolean) => {
         ess(elName).display = boolean ? "inline-block" : "none";
     };
-    doShow("column.interps", !noInterps());
+    doShow("column.opinions", !noOpinions());
     doShow("column.descs", !noDescs());
     doShow("column.materials", !noMaterials());
 
@@ -139,10 +139,10 @@ async function DOM_display_Aue(isFirstLoad = false) {
         l.addEventListener("click", DOM_verseHover);
         l.addEventListener("click", DOM_click);
     });
-    es("interp").forEach(l => {
-        l.addEventListener("mouseover", DOM_interpHover);
+    es("opinion").forEach(l => {
+        l.addEventListener("mouseover", DOM_opinionHover);
         l.addEventListener("mouseout", DOM_reset);
-        l.addEventListener("click", DOM_interpHover);
+        l.addEventListener("click", DOM_opinionHover);
         l.addEventListener("click", DOM_click);
     });
     DOM_reset();
@@ -155,7 +155,7 @@ function heatmap() {
         return totals;
     };
     const freqs = frequencies(
-        db.interpretations
+        db.opinions
             .map(i => i[2])
             .join("")
             .split(""),
