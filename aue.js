@@ -9,7 +9,7 @@ let db = {
         "Life, together, share the universe.",
         "Time, volatile, make precious.",
         "Know of woe and seek joy happily.",
-        "Rely on nature & society in comfort.",
+        "Nature & society is our habitat.",
         "Oppose harm and uphold empathy.",
         "Seek peace to woe incited, inflicted.",
         "Show Aue beside woe naively fed.",
