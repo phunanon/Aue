@@ -20,7 +20,8 @@ h1 img {
   width: 2rem;
 }
 h1,
-h2 {
+h2,
+h3 {
   margin: 1rem 0 0.5rem 0;
   font-weight: normal;
 }
